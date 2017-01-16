@@ -85,7 +85,7 @@ class Mail:
     
 class Receiver:
     
-    def __init__(self, smtp_server='zhmail.kingsoft.com', user='PC120', password='NWm64d'):
+    def __init__(self, smtp_server='', user='', password=''):
         self.CRLF = "\r\n"
         self.smtpServer = smtp_server
         self.user = user
